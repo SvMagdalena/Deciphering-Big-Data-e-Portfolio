@@ -1,0 +1,67 @@
+<!DOCTYPE HTML>
+
+<!--
+	Forty by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+<head>
+<title>Unit 4 — Data Cleaning | Deciphering Big Data ePortfolio</title>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1, user-scalable=no" name="viewport"/>
+<link href="assets/css/main.css" rel="stylesheet"/>
+<noscript><link href="assets/css/noscript.css" rel="stylesheet"/></noscript>
+</head>
+<body class="is-preload">
+<!-- Wrapper -->
+<div id="wrapper">
+<!-- Header -->
+<header id="header">
+<a class="logo" href="index.html"><strong>Deciphering Big Data</strong> <span>ePortfolio</span></a>
+<nav>
+<a href="#menu">Menu</a>
+</nav>
+</header>
+<!-- Menu -->
+<nav id="menu"><ul class="links"><li><a href="index.html">Home</a></li><li><a href="generic.html">Assignments</a></li><li><a href="formative.html">Formative Activities</a></li><li><a href="unit4-cleaning.html">Unit 4 – Data Cleaning</a></li><li><a href="unit7-normalisation.html">Unit 7 – Normalisation</a></li><li><a href="unit10-api-security.html">Unit 10 – API Security</a></li><li><a href="landing.html">Learning Outcomes</a></li><li><a href="elements.html">Reflection &amp; Development</a></li></ul></nav>
+<!-- Main -->
+<div class="alt" id="main">
+<!-- One -->
+<section id="one">
+<div class="inner"><header class="major"><h1>Unit 4 — Data Cleaning</h1></header>
+<h2>UNICEF Survey: <code>mn.csv</code> and <code>mn_headers.csv</code></h2>
+<p>This exercise introduced a survey dataset and a separate lookup file describing its abbreviated headings. Checking the files identified <u>9,008 survey records</u> and 159 columns with 150 headings, out of these, matching the lookup directly and nine not. A further check found <u>606,612 <code>NA</code> values</u> but no empty string cells. I learned why an unavailable response cannot be automatically treated as a mistake, because <strong>in survey data, a question sometimes does not apply to every person</strong> filling out the survey. The approach preserved unmatched column codes rather than discarding information.</p>
+<h2>Scripting the Cleaning Process — Chapter 8</h2>
+<p>I also studied the complete Python cleaning script from Chapter 8 of <u>Data Wrangling with Python</u>. This introduced the importance of writing reusable functions, documenting code and using validation checks throughout the cleaning process. According to the reading, organising code properly makes it easier to understand, repeat and troubleshoot, in particular when working with large datasets.</p>
+<h2>Data Management Pipeline Test</h2>
+<p>The Unit 4 Data Management Pipeline Test included <u>19 matching questions</u> on Python concepts such as date formatting, CSV writing, list comprehensions, PEP 8 and version control.</p>
+<p><strong>Evidence:</strong> CSV matching results, Lecturecast screenshots and a separate 100% Lecturecast knowledge-check result.</p>
+<div class="row gtr-50 gtr-uniform">
+<div class="col-6 col-12-small"><span class="image fit"><img alt="Lecturecast stages of the data management pipeline" src="evidence/lecturecast-data-pipeline.png"/></span></div>
+<div class="col-6 col-12-small"><span class="image fit"><img alt="Lecturecast scripting the data cleaning process" src="evidence/lecturecast-cleaning-script.png"/></span></div>
+<div class="col-6 col-12-small"><span class="image fit"><img alt="Lecturecast data cleaning quiz result showing 100 percent" src="evidence/lecturecast-quiz-100.png"/></span></div>
+<div class="col-6 col-12-small"><span class="image fit"><img alt="Python code loading and checking a dataset" src="evidence/python-loading.jpg"/></span></div>
+</div></div>
+</section>
+</div>
+<!-- Contact -->
+
+<!-- Footer -->
+<footer id="footer">
+<div class="inner">
+
+<ul class="copyright"><li>Deciphering Big Data — ePortfolio</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li></ul>
+</div>
+</footer>
+</div>
+<!-- Scripts -->
+<script src="assets/js/jquery.min.js"></script>
+<script src="assets/js/jquery.scrolly.min.js"></script>
+<script src="assets/js/jquery.scrollex.min.js"></script>
+<script src="assets/js/browser.min.js"></script>
+<script src="assets/js/breakpoints.min.js"></script>
+<script src="assets/js/util.js"></script>
+<script src="assets/js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,62 @@
+<!DOCTYPE HTML>
+
+<!--
+	Forty by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+<head>
+<title>Unit 7 — Normalisation | Deciphering Big Data ePortfolio</title>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1, user-scalable=no" name="viewport"/>
+<link href="assets/css/main.css" rel="stylesheet"/>
+<noscript><link href="assets/css/noscript.css" rel="stylesheet"/></noscript>
+</head>
+<body class="is-preload">
+<!-- Wrapper -->
+<div id="wrapper">
+<!-- Header -->
+<header id="header">
+<a class="logo" href="index.html"><strong>Deciphering Big Data</strong> <span>ePortfolio</span></a>
+<nav>
+<a href="#menu">Menu</a>
+</nav>
+</header>
+<!-- Menu -->
+<nav id="menu"><ul class="links"><li><a href="index.html">Home</a></li><li><a href="generic.html">Assignments</a></li><li><a href="formative.html">Formative Activities</a></li><li><a href="unit4-cleaning.html">Unit 4 – Data Cleaning</a></li><li><a href="unit7-normalisation.html">Unit 7 – Normalisation</a></li><li><a href="unit10-api-security.html">Unit 10 – API Security</a></li><li><a href="landing.html">Learning Outcomes</a></li><li><a href="elements.html">Reflection &amp; Development</a></li></ul></nav>
+<!-- Main -->
+<div class="alt" id="main">
+<!-- One -->
+<section id="one">
+<div class="inner"><header class="major"><h1>Unit 7 — Normalisation</h1></header>
+<h2>1NF to 3NF</h2>
+<p>The source spreadsheet provided contained <u>five fictional students and 15 course registrations</u>.</p>
+<p><strong>1NF</strong>: each registration became an individual row with atomic values.</p>
+<p><strong>2NF</strong>: student and course related information was separated to reduce partial dependencies.</p>
+<p><strong>3NF</strong>: the remaining relationships were organised to avoid transitive dependencies.</p>
+<h2>Relational Database and Testing</h2>
+<p>The final SQLite design used <u>Students, Teachers, Courses, ExamBoards and Enrolments</u>, connected through primary and foreign keys. Because Maths appeared with different examination boards, the board was associated with each enrolment rather than assumed to belong permanently to the course. The database rejected invalid references and duplicate registrations. Seven integrity checks passed, and a joined query reconstructed all 15 original registrations. This showed me why <strong>normalisation and referential integrity testing need to be considered together</strong> rather than separately.</p>
+<p><strong>Evidence:</strong> 1NF–3NF process and recorded SQLite test results; all data is fictional.</p></div>
+</section>
+</div>
+<!-- Contact -->
+
+<!-- Footer -->
+<footer id="footer">
+<div class="inner">
+
+<ul class="copyright"><li>Deciphering Big Data — ePortfolio</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li></ul>
+</div>
+</footer>
+</div>
+<!-- Scripts -->
+<script src="assets/js/jquery.min.js"></script>
+<script src="assets/js/jquery.scrolly.min.js"></script>
+<script src="assets/js/jquery.scrollex.min.js"></script>
+<script src="assets/js/browser.min.js"></script>
+<script src="assets/js/breakpoints.min.js"></script>
+<script src="assets/js/util.js"></script>
+<script src="assets/js/main.js"></script>
+</body>
+</html>
