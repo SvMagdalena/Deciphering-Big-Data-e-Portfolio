@@ -10,8 +10,8 @@
 <title>Assignments | Deciphering Big Data ePortfolio</title>
 <meta charset="utf-8"/>
 <meta content="width=device-width, initial-scale=1, user-scalable=no" name="viewport"/>
-<link href="assets/css/main.css" rel="stylesheet"/>
-<noscript><link href="assets/css/noscript.css" rel="stylesheet"/></noscript>
+<link href="main.css" rel="stylesheet"/>
+<noscript><link href="noscript.css" rel="stylesheet"/></noscript>
 </head>
 <body class="is-preload">
 <!-- Wrapper -->
@@ -33,20 +33,20 @@
 <section id="assignment-1"><h2>Assignment 1 — Database Analytics Design Proposal</h2><p><strong>Unit 6</strong></p>
 <p>The main goal of the first assignment was to propose an <u>AI-assisted relational database</u> for an industry of choice. Due to my background in financial services, I decided to focus on financial data. In particular, a custodian bank’s Corporate Trust team, focusing on CLO deals, collateral managers, obligors, assets, trades and portfolio tests. My proposal outlines the entities, their relationships and a pipeline using ChatGPT, Python, SQLite, Power BI, and finally ChatGPT again for the final senior management level summary of KPIs.</p>
 <p>I chose this area because it allowed me to connect my finance knowledge with the technical concepts covered in this module. The main lesson I learned was that <strong>a database design has to reflect how the business uses the information</strong>, not just how the data looks in a spreadsheet. The assignment details included a group report and peer assessment. My proposal was completed independently, so no team or peer assessment evidence is presented.</p>
-<p><strong>Evidence:</strong> <a href="evidence/database-design-proposal.pdf">Original Database Analytics Design Proposal (PDF)</a>.</p></section>
+<p><strong>Evidence:</strong> <a href="database-design-proposal.pdf">Original Database Analytics Design Proposal (PDF)</a>.</p></section>
 <hr class="major"/>
 <section id="assignment-2"><h2>Assignment 2 — Individual Executive Summary</h2><p><strong>Unit 11</strong></p>
 <p>The purpose of the second assignment was to test the proposal and develop it into a working prototype. A synthetic dataset of 600 trades across 41 fields was created and cleaned using Python. After the removal of incomplete or unsuitable transactions, 593 trades remained.</p>
 <p>I organised the data into <u>five linked SQLite tables</u> and used SQL to check and summarise trading activity, and built a <u>Power BI dashboard</u> showing 593 trades, 90 assets and 859 million in total traded par. ChatGPT was then used to draft <u>a management level summary</u> based on the dashboard numbers and graphs.</p>
 <p>The dashboard also included interactive filters for CLO deals, reporting periods and the two currencies. Due to this, users can explore the dashboard in more detail and focus on specific information relevant to them.</p>
-<span class="image main"><img alt="Power BI CLO trading dashboard showing overall KPIs and trade analysis" src="evidence/dashboard-full.png"/></span>
+<span class="image main"><img alt="Power BI CLO trading dashboard showing overall KPIs and trade analysis" src="dashboard-full.png"/></span>
 <p>The biggest learning point was not to treat AI-generated code or a successful query as proof of accuracy. Financial values are confidential and require appropriate business use. Missing trade amounts cannot safely be replaced with estimates or averages, as AI created code may sometimes suggest. I would also revisit the currency labelling between the written report and the dashboard because different currencies (USD and EUR) were shown, which led to the <strong>final submitted assignment</strong> looking inconsistent.</p>
-<p><strong>Evidence:</strong> <a href="evidence/individual-executive-summary.pdf">Original Executive Summary (PDF)</a>, SQL screenshots and dashboard images.</p>
+<p><strong>Evidence:</strong> <a href="individual-executive-summary.pdf">Original Executive Summary (PDF)</a>, SQL screenshots and dashboard images.</p>
 <div class="row gtr-50 gtr-uniform">
-<div class="col-6 col-12-small"><span class="image fit"><img alt="Filtered Power BI CLO dashboard" src="evidence/dashboard-filtered.png"/></span></div>
-<div class="col-6 col-12-small"><span class="image fit"><img alt="Five linked SQLite database tables" src="evidence/sqlite-tables.jpg"/></span></div>
-<div class="col-6 col-12-small"><span class="image fit"><img alt="SQL count query returned 593 trades" src="evidence/sql-count.jpg"/></span></div>
-<div class="col-6 col-12-small"><span class="image fit"><img alt="Python raw CLO dataset preview" src="evidence/python-raw-preview.jpg"/></span></div>
+<div class="col-6 col-12-small"><span class="image fit"><img alt="Filtered Power BI CLO dashboard" src="dashboard-filtered.png"/></span></div>
+<div class="col-6 col-12-small"><span class="image fit"><img alt="Five linked SQLite database tables" src="sqlite-tables.jpg"/></span></div>
+<div class="col-6 col-12-small"><span class="image fit"><img alt="SQL count query returned 593 trades" src="sql-count.jpg"/></span></div>
+<div class="col-6 col-12-small"><span class="image fit"><img alt="Python raw CLO dataset preview" src="python-raw-preview.jpg"/></span></div>
 </div></section></div>
 </section>
 </div>
@@ -61,12 +61,12 @@
 </footer>
 </div>
 <!-- Scripts -->
-<script src="assets/js/jquery.min.js"></script>
-<script src="assets/js/jquery.scrolly.min.js"></script>
-<script src="assets/js/jquery.scrollex.min.js"></script>
-<script src="assets/js/browser.min.js"></script>
-<script src="assets/js/breakpoints.min.js"></script>
-<script src="assets/js/util.js"></script>
-<script src="assets/js/main.js"></script>
+<script src="jquery.min.js"></script>
+<script src="jquery.scrolly.min.js"></script>
+<script src="jquery.scrollex.min.js"></script>
+<script src="browser.min.js"></script>
+<script src="breakpoints.min.js"></script>
+<script src="util.js"></script>
+<script src="main.js"></script>
 </body>
 </html>
